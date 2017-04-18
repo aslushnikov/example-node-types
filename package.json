@@ -1,0 +1,21 @@
+{
+  "name": "example-node-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Sprite.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aslushnikov/example-node-types.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/aslushnikov/example-node-types/issues"
+  },
+  "homepage": "https://github.com/aslushnikov/example-node-types#readme",
+  "devDependencies": {
+    "google-closure-compiler-js": "^20170409.0.0"
+  }
+}
