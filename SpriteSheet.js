@@ -1,3 +1,5 @@
+var Sprite = require('./Sprite');
+
 var SpriteSheet = class {
   /**
    * @param {!Map<!Sprite, !{x: number, y: number}>} spritePositions
@@ -9,6 +11,7 @@ var SpriteSheet = class {
     this._height = height;
     this._sprites = Array.from(spritePositions.keys());
     this._positions = spritePositions;
+    this._coverage = 0;
   }
 
   /**

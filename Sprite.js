@@ -1,7 +1,7 @@
 class Sprite {
   /**
    * @param {string} filePath
-   * @param {string} content
+   * @param {string} mimeType
    * @param {number} width
    * @param {number} height
    */
